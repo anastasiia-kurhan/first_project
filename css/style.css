@@ -543,7 +543,7 @@ body {
 .services__column {
 }
 
-.services__column:not(first-child) { 
+.services__column:first-child { 
     padding-top: 48px;
 }
 .services__item {
@@ -607,7 +607,7 @@ body {
     .services__items {
         flex-direction: column;
     }
-    .services__column:not(first-child) { 
+    .services__column:first-child { 
         padding-top: 0;
     }
 }
